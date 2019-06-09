@@ -7,7 +7,10 @@ const schemaProduct = new Schema({
   amount: Number,
   manufacture: String,
   image: String,
-  name: String
+  name: String,
+  tag: String,
+  description: String,
+  shortDescrotion: String
 });
 
 module.exports = mongoose.model("Products", schemaProduct);
